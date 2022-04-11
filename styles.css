@@ -1,0 +1,59 @@
+@font-face {
+    font-family: norseBold;
+    src: url(assets/Norse-Bold.otf)
+}
+
+body, html { 
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: flex;
+}
+
+#left-section {
+    width: 33.33vw;
+    height: 100vh;
+    background-image: url(assets/fern.jpg);
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+#right-section {
+    width: 66.66vw;
+    height: 100vh;
+    background-color: #f9fafb
+}
+
+#logo {
+    color: white;
+    font-family: norseBold;
+    font-size: 5vw;
+    background-color: rgba(0,0,0,0.5);
+    margin-top: 25vh;
+    padding: 0.5vw 0;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+[src*="odin-logo"] {
+   width: 12%;
+}
+
+#photo-credit {
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+a {
+    color: white
+}
