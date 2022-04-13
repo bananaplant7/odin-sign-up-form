@@ -65,8 +65,15 @@ a {
 
 #top-right {
     font-weight: bold;
+    margin: 10rem auto 4rem 10rem;
+    width: clamp(45ch, 50%, 75ch);
 }
 
 form {
     background-color: white;
 }
+
+p {   
+    font-size: max(16px, 1.1vw);
+}
+
