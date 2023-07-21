@@ -1,3 +1,5 @@
+live demo: https://bananaplant7.github.io/odin-sign-up-form/
+
 Practiced:
 
 - fluid typography (min, max)
